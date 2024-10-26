@@ -8,4 +8,5 @@ public class UsingStreamFindEvenNumber {
         List<Integer> num= Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         num.stream().filter(m->m%2==0).forEach(System.out::println);
     }
+
 }
