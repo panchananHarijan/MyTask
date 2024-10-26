@@ -12,4 +12,5 @@ public class RemoveDuplicateElement {
         List<Integer> duplicatRemove=lst.stream().distinct().toList();
         System.out.println("Duplicate Remove after::"+duplicatRemove);
     }
+
 }

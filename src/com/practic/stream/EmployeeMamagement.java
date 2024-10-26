@@ -16,6 +16,7 @@ public class EmployeeMamagement {
                 new Employee("Eve", "Marketing", 72000)
         );
 
+
        //Filtering employee in Engineering Department
         System.out.println("Engineering employee:");
        employee.stream().filter(m->m.getDepartment().equals("Engineering")).forEach(System.out::println);

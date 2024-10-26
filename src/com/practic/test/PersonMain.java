@@ -10,6 +10,7 @@ class Person{
     String name;
     int age;
 
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -31,6 +32,7 @@ public class PersonMain {
                 new Person("Charlie", 30),
                 new Person("Diana", 25)
         );
+
         //grouping by age
 
         Map<Integer, List<Person>> collect = list.stream().collect(Collectors.groupingBy(person -> person.age));

@@ -9,4 +9,5 @@ public class UsingReduceSumOFArray {
         int sum=num.stream().reduce(Integer::sum).get();
         System.out.println(sum);
     }
+
 }

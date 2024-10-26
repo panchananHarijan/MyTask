@@ -9,4 +9,5 @@ public class FilterEvenFromList {
         List<Integer> number=num.stream().filter(nu->nu%2==0).toList();
         System.out.println("Even Number is="+number);
     }
+
 }

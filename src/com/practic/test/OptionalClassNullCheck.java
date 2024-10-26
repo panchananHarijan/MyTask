@@ -10,4 +10,5 @@ public class OptionalClassNullCheck {
         String defaultValue = value.orElse("Default value");
         System.out.println(defaultValue);
     }
+
 }

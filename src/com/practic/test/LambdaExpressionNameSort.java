@@ -9,6 +9,5 @@ public class LambdaExpressionNameSort {
         List<String> names= Arrays.asList("John", "Alice", "Bob", "Diana");
         names.sort(String::compareTo);
         names.forEach(System.out::println);
-
     }
 }

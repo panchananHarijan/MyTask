@@ -13,4 +13,5 @@ public class SumOfNumber {
 
         System.out.println("After adding the list:"+result);
     }
+
 }

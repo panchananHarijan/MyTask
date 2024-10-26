@@ -12,6 +12,7 @@ public class FlatMapExample {
                 Arrays.asList("G","H")
 
         );
+
         List<String> num=flatmap.stream().flatMap(List::stream).toList();
         System.out.println("Flat list::"+num);
     }

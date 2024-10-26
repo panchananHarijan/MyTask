@@ -6,7 +6,6 @@ import java.util.List;
 public class FindMinMaxValueFromArray {
     public static void main(String[] args) {
         List<Integer> number=Arrays.asList(5, 3, 8, 1, 9, 2,29);
-
         //find max
         Integer max=number.stream().max(Integer::compareTo).orElse(null);
 

@@ -19,5 +19,6 @@ public class ExampleOfMapAndFlatMap {
         List<String> newResult=lst.stream().flatMap(List::stream).toList();
         System.out.println("FlatMap result::"+newResult);
 
+
     }
 }

@@ -11,7 +11,6 @@ class Book{
     private String author;
     private String genre;
     private int publicationYear;
-
     public Book(String title, String author, String genre, int publicationYear) {
         this.title = title;
         this.author = author;
@@ -63,6 +62,7 @@ class Library{
         this.books=new ArrayList<>();
     }
 
+
     public void addBook(Book book){
         books.add(book);
     }
@@ -84,6 +84,7 @@ class Library{
         books.forEach(System.out::println);
     }
 }
+
 public class LibraryManagementSystem {
     public static void main(String[] args) {
 

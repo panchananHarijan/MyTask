@@ -9,4 +9,5 @@ public class UsingMap {
         List<String> lm=lst.stream().map(String::toUpperCase).toList();
         System.out.println("After Using map::"+lm);
     }
+
 }

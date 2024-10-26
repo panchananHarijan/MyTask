@@ -6,6 +6,7 @@ package com.practic.test;
 interface ArithmeticOperation{
     int operation(int a,int b);
 }
+
 public class LamdaExpression {
     public static void main(String[] args) {
         //Using lambda Expression different operation

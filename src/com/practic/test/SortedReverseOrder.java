@@ -11,4 +11,5 @@ public class SortedReverseOrder {
         List<String> sortedName=name.stream().sorted((a,b)->b.compareTo(a)).toList();
         System.out.println("Reverse name"+sortedName);
     }
+
 }
